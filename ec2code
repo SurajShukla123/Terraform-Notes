@@ -1,0 +1,19 @@
+provider "aws" {
+  region = "ap-south-1"
+  #access_key = ""
+  #secret_key =""
+}
+
+resource "aws_instance" "First-Int" {
+  ami                    = "ami-0d81306eddc614a45"
+  instance_type          = "t2.micro"
+  availability_zone      = "ap-south-1a"
+  key_name               = "tera"
+  vpc_security_group_ids = ["sg-086e565bf530020ab"]
+  tags = {
+    Name    = "My-Instance"
+    Project = "Dev"
+  }
+}
+#enter this under cli and it will create a ec2 instance
+#Do not forget to exec all tf command validate plant apply and if u want fmt more mp init
