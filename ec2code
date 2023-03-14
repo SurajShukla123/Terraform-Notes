@@ -17,3 +17,4 @@ resource "aws_instance" "First-Int" {
 }
 #enter this under cli and it will create a ec2 instance
 #Do not forget to exec all tf command validate plant apply and if u want fmt more mp init
+#
