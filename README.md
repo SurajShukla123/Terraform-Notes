@@ -12,16 +12,16 @@ Now, let's define the steps to get started:
 
 4. Run the following commands:
 
-terraform init
-terraform fmt
-terraform validate
-terraform plan
-terraform apply
+  i.   i.   terraform init
+  ii.  terraform fmt
+  iii. terraform validate
+  iv.  terraform plan
+  v.   terraform apply
 
 5. After executing these commands, check the AWS console to verify if everything was created correctly.
 
 6. When you are finished, delete the created services by using the following command:
 
-terraform destroy
+  vi. terraform destroy
 
 Please note that these are general guidelines, and you may need to adapt the steps based on your specific requirements and environment.
