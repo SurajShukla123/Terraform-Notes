@@ -1,18 +1,25 @@
 # Terraform-Notes
 
-Here I have wrote down all the required code , For Creating different -2 services in AWS cloud services 
-You need to follow the same and new services will come up in AWS console , But be sure whenever you startany thing on cloud destroy as well when work is done else ready for paying unexpected huge amont of money.
+Here, I have written down all the required code for creating different services in AWS cloud. To create new services, you need to follow the same process and the new services will appear in the AWS console. However, please ensure that you destroy any resources once your work is done to avoid unexpected high costs.
 
-So here I'm going to define from where you need to start 
-1. AWS Configure in your cli whereever you are going to work
-2. Once that is done be sure terraform is installed in ur system for chekin use terraform --help
-3. Now write down ur terraform code somewhere I mean any text editor, after creat a new directory under that new file paste ur code here and save it with .tf exten
-4. Commands 
-     1. terraform init 
-     2. terraform fmt
-     3. terraform validate
-     4. terraform plan
-     5. terrform apply
-5. Check in AWS console if everything was right it will create a new services
-6. Now delete that svc by using this command 
-     1. terraform destroy
+Now, let's define the steps to get started:
+
+Configure AWS CLI wherever you are working.
+
+Make sure Terraform is installed on your system. You can check by running "terraform --help" in your terminal.
+
+Write your Terraform code in a text editor. Create a new directory and save the code in a new file with a .tf extension.
+
+Run the following commands:
+
+terraform init
+terraform fmt
+terraform validate
+terraform plan
+terraform apply
+After executing these commands, check the AWS console to verify if everything was created correctly.
+
+When you are finished, delete the created services by using the following command:
+
+terraform destroy
+Please note that these are general guidelines, and you may need to adapt the steps based on your specific requirements and environment.
