@@ -12,10 +12,14 @@ Now, let's define the steps to get started:
 
 4. Run the following commands:
 
-  i.   i.   terraform init
+  i.   terraform init
+  
   ii.  terraform fmt
+  
   iii. terraform validate
+  
   iv.  terraform plan
+  
   v.   terraform apply
 
 5. After executing these commands, check the AWS console to verify if everything was created correctly.
